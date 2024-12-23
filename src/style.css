@@ -1,0 +1,171 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    /* text-align: justify; */
+    font-size:auto;
+    font-size:1rem;
+    background-color: rgba(227, 244, 244,0.5);
+     /* max-width: 500px; */
+}
+#all
+
+
+#navbar
+{
+    padding:8px;
+    margin:0;
+}
+#logo
+{
+    height:40px;
+    width:40px;
+}
+a
+{
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    color:indigo;
+    font-size:2.5rem;
+    
+}
+#bd
+{
+    margin:0 auto;
+    /* width:100%; */
+    max-width:1000px;
+    
+    /* height:200px; */
+    /* object-fit:cover; */
+}
+#banner
+{
+    width:100%;
+    max-width:1000px;
+    height:200px;
+    object-fit:cover;
+}
+
+#about{
+    max-width:1000px;
+    margin:0 auto;
+    display:flex;
+    padding: 0 50px; ;
+}
+#description
+{
+    width:50%;
+    /* height:300px; */
+    font-size:larger;
+    padding-right:10px;
+    font-size:1.25rem;
+}
+#tlogo
+{
+    width:50%;
+}
+#jobs-table
+{
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+    /* margin:0 5px; */
+    padding:20px;
+    border :1px solid gray;
+    border-collapse: collapse;
+}
+.job-header-row th
+{
+    border:1px solid gray;
+    padding:8px;
+    background-color: aliceblue;
+    text-align:center;
+    color:#222222;
+}
+.job-data-row td{
+    border:1px solid gray;
+    padding:8px;
+}
+#jobs-table tr:nth-child(odd)
+{
+    background-color: rgb(222, 222, 243);
+
+}
+h2{
+    text-align:center;
+}
+#application
+{
+    max-width: 1000px;
+    margin:0 auto;
+    padding:0 10px;
+}
+.form_grp
+{
+    margin-top:8px;
+}
+.form_grp textarea
+{
+    width:60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.form_grp input[type="checkbox"]
+{
+    width:16px;
+    height:16px;
+}
+.form_grp input[type="submit"]
+{
+    background-color: rgb(65, 187, 244);
+    color:white;
+    font-weight:4 00;
+    padding:16px;
+}
+#application_form label{
+    font-weight:700;
+} 
+#application_form input ,select,textarea{
+    padding:4px;
+    font-size: 1.25rem;
+    margin-top:4px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+
+h3{
+    margin-bottom:0;
+    margin-top:0;
+}
+.apply
+{
+    float:right;
+}
+.footer
+{
+    background-color: rgb(225, 240, 245);
+    padding:10px;
+    margin-top:20px;
+    text-align:center;
+}
+#f_link
+{
+    list-style:none;
+    text-align:center
+}
+#f_link li{
+    display :inline;
+    margin:0 25px;
+    /* text-align:center; */
+    
+}
+#copy
+{
+    color:gray;
+    font-size:0.875rem;
+
+}

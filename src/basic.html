@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        my fist web
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo"
+            src=" https://img.freepik.com/premium-vector/gradient-hummingbird-logo-design_1128391-36092.jpg?semt=ais_hybrid"
+            alt="logo">
+    </div>
+    <div id="bd">
+    <img id="banner" src="banner.jpg" alt="banner">
+    </div>
+    <div style="margin-bottom :auto">
+        <h1> About jovin</h1>
+        <div id="about">
+            <div id="description">
+                <p style="margin:0">
+                    It is a long established fact content of a page
+                    when looking at its layout. The
+                    point of using <i>Lorem </i>Ipsum'Content
+                    here, content here', making
+                    it look like <b>readable</b> English
+                    .
+                </p>
+                <p>
+                    SOME PROJECT IS HERE
+                <ol>
+                    <li>
+                        <a href="https://www.fergusson.edu">
+                            Ayush project for vsc is here
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com">
+                            Chinu project for vsc is here
+                        </a>
+                    </li>
+                </ol>
+                </p>
+            </div>
+            <div id="tlogo">
+                <img src="t_photo.jpg" alt="team" height="300px" width="100%">
+            </div>
+
+        </div>
+
+
+        <div>
+            <h2> Job Opportunities</h2>
+            <div id="jobs">
+                <table id="jobs-table">
+                    <tr class="job-header-row">
+
+                        <th rowspan="2">Job Title</th>
+                        <th colspan="2">Location </th>
+                        <th rowspan="2">Salary</th>
+                        <th rowspan="2">Posted On </th>
+                    </tr>
+                    <tr class="job-header-row">
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr class="job-data-row">
+                        <td>Frontend Devloper</td>
+                        <td>Pune</td>
+                        <td>India</td>
+                        <td>₹12,00,000</td>
+                        <td>Mar 3,2024</td>
+
+                    </tr>
+                    <tr class="job-data-row">
+                        <td>Full Stack Devloper</td>
+                        <td>Bengaluru</td>
+                        <td>India</td>
+                        <td>₹15,00,000</td>
+                        <td>sept 3,2024</td>
+                    </tr>
+                    <tr class="job-data-row">
+                        <td>Data scientist</td>
+                        <td>New Delhi</td>
+                        <td>India</td>
+                        <td>₹18,00,000</td>
+                        <td>Nov 3,2024</td>
+                    </tr>
+                    <tr class="job-data-row">
+                        <td>Machine Learning Engineer</td>
+                        <td colspan="2">Remote</td>
+                        <td>$80,000</td>
+                        <td>Dec 3,2024</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div id="application">
+                <h2>Submit Your Application</h2>
+                <form id="application_form">
+                    <div class="form_grp">
+                        <label for="name"> Full Name</label><br>
+                        <input type="text" id="name" name="name" required placeholder="Shubham Mishra">
+                    </div>
+                    <div class="form_grp">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" required placeholder="shubh@2226gmail.com">
+                    </div>
+                    <div class="form_grp">
+                        <label for="mob"> Phone</label><br>
+                        <input type="tel" id="mob" name="mob" required placeholder="+91 7256094567">
+                    </div>
+                    <div class="form_grp">
+                        <label for="dob"> Date of Birth</label><br>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+
+                    <div class="form_grp">
+                        <label for="position">Position Applied for</label><br>
+                        <select id="position" name="position Applied" required>
+                            <option value="">Select position</option>
+                            <option value="Frontend ">Frontend Devloper</option>
+                            <option value="Full Stack">Full Stack Devloper</option>
+                            <option value="Data scientis">Data scientist</option>
+                            <option value="M L Engineer">Machine Learning Engineer</option>
+                        </select>
+                    </div>
+
+                    <div class="form_grp">
+                        <label for="resume">Upload Your Updated Resume</label><br>
+                        <input type="file" id="resume" name="resume" accept=" .pdf,.doc,.docx">
+                    </div>
+
+                    <div class="form_grp">
+                        <label for="Cover letter">Cover letter</label><br>
+                        <textarea id="Cover letter" name="Cover letter" row="5"
+                            placeholder="Explain What Makes You Auitable For The Job......"></textarea>
+                    </div>
+
+                    <div class="form_grp">
+                        <label for="term"><input type="checkbox" id="term" name="term" required>
+                            I agree to the terms and conditions
+                        </label>
+                    </div>
+
+
+                    <div class="form_grp">
+                        <input type="submit" value="Submit Application">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer">
+            <ul id="f_link">
+                <li>
+                    <a href="https://www.amazon.in" target="_blank">
+                        course
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.flipkart.in" target="_blank">
+                        programs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+            </ul>
+            <span id="copy">©2024shubham</span>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
